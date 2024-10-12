@@ -533,6 +533,9 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .flex {
   display: flex;
 }
@@ -676,18 +679,8 @@ video {
 .border-b-0 {
   border-bottom-width: 0px;
 }
-.border-l {
-  border-left-width: 1px;
-}
-.border-l-2 {
-  border-left-width: 2px;
-}
 .border-t-0 {
   border-top-width: 0px;
-}
-.border-stone-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(168 162 158 / var(--tw-border-opacity));
 }
 .border-stone-700 {
   --tw-border-opacity: 1;
@@ -696,6 +689,10 @@ video {
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+.bg-neutral-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 .bg-neutral-800 {
   --tw-bg-opacity: 1;
@@ -711,13 +708,21 @@ video {
 .fill-white {
   fill: #fff;
 }
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 .py-16 {
   padding-top: 4rem;
@@ -734,17 +739,8 @@ video {
 .pb-4 {
   padding-bottom: 1rem;
 }
-.pl-1 {
-  padding-left: 0.25rem;
-}
-.pl-2 {
-  padding-left: 0.5rem;
-}
 .pl-4 {
   padding-left: 1rem;
-}
-.pr-5 {
-  padding-right: 1.25rem;
 }
 .pt-16 {
   padding-top: 4rem;
@@ -765,6 +761,10 @@ video {
   font-size: 3rem;
   line-height: 1;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -777,22 +777,29 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
 .font-bold {
   font-weight: 700;
 }
 .font-medium {
   font-weight: 500;
 }
+.font-normal {
+  font-weight: 400;
+}
 .font-semibold {
   font-weight: 600;
+}
+.text-neutral-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity));
 }
 .text-neutral-300 {
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity));
+}
+.text-red-300 {
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 .text-red-400 {
   --tw-text-opacity: 1;
@@ -890,10 +897,6 @@ body {
   --tw-content: '';
   content: var(--tw-content);
 }
-.hover\:bg-stone-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
-}
 .hover\:text-neutral-200:hover {
   --tw-text-opacity: 1;
   color: rgb(229 229 229 / var(--tw-text-opacity));
@@ -904,13 +907,31 @@ body {
 .hover\:opacity-85:hover {
   opacity: 0.85;
 }
+.disabled\:opacity-40:disabled {
+  opacity: 0.4;
+}
+.disabled\:hover\:cursor-not-allowed:hover:disabled {
+  cursor: not-allowed;
+}
 .group:hover .group-hover\:outline {
   outline-style: solid;
 }
 @media (min-width: 640px) {
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:items-start {
+    align-items: flex-start;
+  }
+
+  .sm\:items-center {
+    align-items: center;
   }
 
   .sm\:justify-normal {
@@ -921,6 +942,33 @@ body {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .sm\:pt-0 {
@@ -953,11 +1001,6 @@ body {
   .xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 

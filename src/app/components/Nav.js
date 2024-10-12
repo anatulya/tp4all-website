@@ -31,11 +31,11 @@ export const Nav = () => {
                     </a>
                 </div>
                 <div className="flex flex-row items-center justify-center space-x-8 sm:space-x-16 pt-8">
-                    <Link href="/home" className={`${pathName === "/home" && "underline"} hover:underline underline-offset-8 text-white xl:text-lg text-xs font-medium`}>Home</Link>
-                    <Link href="/events" className={`${pathName === "/events" && "underline"} hover:underline underline-offset-8 text-white xl:text-lg text-xs font-medium`}>Events</Link>
-                    <Link href="/gallery" className={`${pathName.startsWith("/gallery") && "underline"} hover:underline underline-offset-8 text-white xl:text-lg text-xs font-medium`}>Gallery</Link>
-                    <Link href="/blog" className={`${pathName === "/blog" && "underline"} hover:underline underline-offset-8 text-white xl:text-lg text-xs font-medium`}>Blog</Link>
-                    <Link href="/contact" className={`${pathName === "/contact" && "underline"} hover:underline underline-offset-8 text-white xl:text-lg text-xs font-medium`}>Contact</Link>
+                    <Link href="/home" className={`${pathName === "/home" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Home</Link>
+                    <Link href="/events" className={`${pathName === "/events" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Events</Link>
+                    <Link href="/gallery" className={`${pathName.startsWith("/gallery") && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Gallery</Link>
+                    <Link href="/blog" className={`${pathName === "/blog" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Blog</Link>
+                    <Link href="/contact" className={`${pathName === "/contact" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Contact</Link>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body className={firaCode.className}>
         <div className="flex flex-col lg2:mx-60 xl:mx-72 shadow-lg shadow-black bg-neutral-800 border-2 border-t-0 border-b-0 border-stone-700 py-16 min-h-screen">
           <Nav />
-          <div className=" pt-8 px-16 " >
+          <div className=" pt-8 px-4 sm:px-16 " >
             {children}
           </div>
         </div>

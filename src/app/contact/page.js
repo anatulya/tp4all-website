@@ -45,7 +45,7 @@ export default function ContactPage() {
                     </div>
                 </div>
                 <div className="pt-8 flex flex-col text-center sm:flex-row sm:text-left items-center space-x-4">
-                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D4E03AQEZYlDS74Pm3Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726365466137?e=1732147200&v=beta&t=1J4qHNW1jjx-xdMKz74HW6R6TL8wEPjXFgzD5RVthqc" />
+                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D4E03AQGwLnz_GrP6bg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728764887284?e=1733961600&v=beta&t=1Vh2Xc2koqlLbUiMjAxb0h8VDxDC7_2TM8U0AS7laSA" />
                     <div className="flex flex-col ">
                         <h1 className="pt-2 sm:pt-0 font-semibold">Anatulya Nandi</h1>
                         <h1 className="">Co-Founder</h1>

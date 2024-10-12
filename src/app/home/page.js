@@ -51,7 +51,7 @@ export default function Home() {
             <h1>Vivian Z.</h1>
             <h1>Anatulya</h1>
         </div> */}
-        <p className="sm:text-base text-sm">Ben <span className="text-red-400">—</span> Kevin <span className="text-red-400">—</span> Iris <span className="text-red-400">—</span> Vivian L. <span className="text-red-400">—</span> Vivian Z. <span className="text-red-400">—</span> Anatulya (respective to the image)</p>
+        <p className="sm:text-base text-sm">Ben <span className="text-red-400">—</span> Kevin <span className="text-red-400">—</span> Iris <span className="text-red-400">—</span> Vivian L. <span className="text-red-400">—</span> Vivian Z. <span className="text-red-400">—</span> Anatulya <span className="text-red-400">—</span> Lucas (not in image)</p>
         <p className="sm:text-base text-sm">This is us at Los Altos Library, repping the iconic red dot in ThinkPad keyboards!</p>
         
         <p>Connect with us through our <Link className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="/contact">contact page</Link>!</p>
