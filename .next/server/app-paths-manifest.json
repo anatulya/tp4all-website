@@ -1,9 +1,0 @@
-{
-  "/home/page": "app/home/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/events/page": "app/events/page.js",
-  "/gallery/cupertino/page": "app/gallery/cupertino/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/contact/page": "app/contact/page.js"
-}
