@@ -9,8 +9,8 @@ export default function EventPage() {
         <div className="flex flex-col text-white">
             <h1 className="font-semibold">Upcoming Events</h1>
             <EventListing name={"Sunnyvale Library"} date={new Date(2024, 11, 15, 14)} link={""} fixit={true} city={"Sunnyvale, CA"} />
-            <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={""} city={"Burlingame, CA"} />
             <EventListing name={"Scotts Valley Library"} date={new Date(2025, 0, 4, 13)} link={""} city={"Santa Cruz, CA"} />
+            <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={""} city={"Burlingame, CA"} />
             <EventListing name={"Cupertino Library"} date={new Date(2025, 2, 22, 14)} link={""} city={"Cupertino, CA"} />
             <EventListing name={"THP South Branch Library"} date={new Date(2025, 5, 28, 14, 30)} link={""} city={"Berkeley, CA"} />
             <EventListing name={"Fremont Main Library"} date={null} link={""} city={"Fremont, CA"} />
@@ -19,14 +19,14 @@ export default function EventPage() {
             <EventListing name={"Redwood City Library"} date={null} link={""} city={"Redwood City, CA"} />
 
             <h1 className="mt-8 font-semibold">Past Events <span className="font-normal">(click to view gallery)</span></h1>
-            <EventListing name={"Sunnyvale Makerspace Nexus"} date={new Date(2024, 9, 5, 11)} link={"gallery/maker_nexus"} fixit={true} city={"Sunnyvale, CA"}/>
+            <EventListing name={"Sunnyvale Makerspace Nexus"} date={new Date(2024, 9, 5, 11)} link={"gallery/maker_nexus"} fixit={true} city={"Sunnyvale, CA"} />
             <EventListing name={"Burlingame Library"} date={new Date(2024, 8, 7, 13, 30)} link={"gallery/burlingame"} city={"Burlingame, CA"} />
-            <EventListing name={"Cupertino Library"} date={new Date(2024, 7, 17, 15)} link={"gallery/cupertino"} city={"Cupertino, CA"}  />
+            <EventListing name={"Cupertino Library"} date={new Date(2024, 7, 17, 15)} link={"gallery/cupertino"} city={"Cupertino, CA"} />
             <EventListing name={"Morgan Hill Library"} date={new Date(2024, 7, 14, 18)} link={"gallery/morgan_hill"} city={"Morgan Hill, CA"} />
             <EventListing name={"Gilroy Library"} date={new Date(2024, 6, 20, 13)} link={"gallery/gilroy"} city={"Gilroy, CA"} />
             <EventListing name={"Los Altos Library"} date={new Date(2024, 6, 13, 10, 30)} link={"gallery/los_altos"} city={"Los Altos, CA"} />
-            <EventListing name={"Milpitas Library"} date={new Date(2024, 5, 22, 16)} link={"gallery/milpitas"}  city={"Milpitas, CA"} />
-            <EventListing name={"Saratoga Library"} date={new Date(2024, 5, 9, 13)} link={"gallery/saratoga"} city={"Saratoga, CA"}  />
+            <EventListing name={"Milpitas Library"} date={new Date(2024, 5, 22, 16)} link={"gallery/milpitas"} city={"Milpitas, CA"} />
+            <EventListing name={"Saratoga Library"} date={new Date(2024, 5, 9, 13)} link={"gallery/saratoga"} city={"Saratoga, CA"} />
 
 
         </div>
