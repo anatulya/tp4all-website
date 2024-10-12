@@ -35,7 +35,7 @@ export const EventListing2 = ({ name, date, link, city, fixit }) => {
                             <h1 className="text-white">{dateHasPassed() && date ? "Event Passed" : "Event Coming"}</h1>
                         </div>
                     </div>
-                    <Link href={link}><button disabled={link === ""} className="text-neutral-200 w-full px-1 py-0.5 bg-neutral-500 disabled:opacity-40 disabled:hover:cursor-not-allowed" >{dateHasPassed() ? "View Gallery" : "Register"}</button></Link>
+                    <Link href={link}><button disabled={link === ""} className="text-neutral-200 w-full px-1 py-0.5 bg-neutral-500 disabled:opacity-40 disabled:hover:cursor-not-allowed" >{dateHasPassed() && date ? "View Gallery" : "Register"}</button></Link>
                 </div>
             </div>
         </div>
