@@ -101,7 +101,7 @@ export default function GalleryPage() {
                 <a href="/gallery/maker_nexus" className="group">
                     <div className="flex flex-col ">
                         {/* <img src="/milpitas/thumbnail.jpg" className="rounded-lg" /> */}
-                        <div className="w-64 h-64 rounded-lg group-hover:outline outline-2 outline-neutral-300" style={{ backgroundImage: "url(/mK_nexus/thumbnail.jpg)", backgroundSize: "cover" }} />
+                        <div className="w-64 h-64 rounded-lg group-hover:outline outline-2 outline-neutral-300" style={{ backgroundImage: "url(/mk_nexus/thumbnail.jpg)", backgroundSize: "cover" }} />
                         <div className="pt-2 text-white font-semibold">MakerSpace Nexus x FixitClinic</div>
                         <div className="text-neutral-300 font-semibold text-sm">25-30 attendees</div>
 
