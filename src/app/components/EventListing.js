@@ -9,7 +9,6 @@ export const EventListing = ({ name, date, link, city, fixit }) => {
         return Date.now() - date > 0
     }
 
-    console.log(date && dateHasPassed())
     return (
         <div className="flex flex-col sm:px-1 py-2.5 ">
             <div className="flex flex-row  sm:px-4 justify-between items-center sm:items-start text-base">
