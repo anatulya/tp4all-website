@@ -137,7 +137,7 @@ export default function GalleryPage() {
                         {/* <img src="/milpitas/thumbnail.jpg" className="rounded-lg" /> */}
                         <div className="w-64 h-64  rounded-lg group-hover:outline outline-2 outline-neutral-300" style={{ backgroundImage: "url(/los_altos/thumbnail.jpg)", backgroundSize: "cover" }} />
                         <div className="pt-2 text-white font-semibold">Los Altos Library</div>
-                        <div className="text-neutral-300 font-semibold text-sm">7 attendees</div>
+                        <div className="text-neutral-300 font-semibold text-sm">10 attendees</div>
                     </div>
                 </a>
             </div>
@@ -148,7 +148,7 @@ export default function GalleryPage() {
                         {/* <img src="/milpitas/thumbnail.jpg" className="rounded-lg" /> */}
                         <div className="w-64 h-64  rounded-lg group-hover:outline outline-2 outline-neutral-300" style={{ backgroundImage: "url(/morgan_hill/thumbnail.jpg)", backgroundSize: "cover" }} />
                         <div className="pt-2 text-white font-semibold">Morgan Hill Library</div>
-                        <div className="text-neutral-300 font-semibold text-sm">7 attendees</div>
+                        <div className="text-neutral-300 font-semibold text-sm">10 attendees</div>
                     </div>
                 </a>
             </div>
