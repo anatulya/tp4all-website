@@ -8,7 +8,7 @@ export default function EventPage() {
     return (
         <div className="flex flex-col text-white">
             <h1 className="font-semibold">Upcoming Events</h1>
-            <EventListing name={"Sunnyvale Library"} date={new Date(2024, 11, 15, 14)} link={""} fixit={true} city={"Sunnyvale, CA"} />
+            <EventListing name={"Sunnyvale Library"} date={new Date(2024, 11, 15, 14)} link={""} city={"Sunnyvale, CA"} />
             <EventListing name={"Scotts Valley Library"} date={new Date(2025, 0, 4, 13)} link={""} city={"Santa Cruz, CA"} />
             <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={""} city={"Burlingame, CA"} />
             <EventListing name={"Cupertino Library"} date={new Date(2025, 2, 22, 14)} link={""} city={"Cupertino, CA"} />
