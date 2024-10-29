@@ -8,7 +8,7 @@ import gsap from "gsap";
 export default function Home() {
   return (
     <div className="flex flex-col justify-center text-white ">
-      <div className="flex flex-row w-full items-center space-x-2 drop-shadow-glow">
+      <div className="flex flex-row w-full items-center space-x-2 ">
         <h1 className=" text-lg font-semibold ">
           Hey there!<span></span>
         </h1>
@@ -18,7 +18,7 @@ export default function Home() {
       <p className="pt-4 sm:text-base text-sm">We're ThinkPads4all, a non-profit based in Cupertino, CA. <span className="">We <span className="text-red-400">improve tech literacy</span> and <span className="text-red-400">repurpose used devices</span> as materials within our <Link href="/gallery" className="underline underline-offset-4 hover:text-neutral-200 transition-colors ">hands-on workshops</Link>. </span> We also post a lot of cool tutorials on how to hack/mod computers on our <Link className="hover:text-neutral-200 transition-colors underline underline-offset-4" href="/blog">blog</Link> page!</p>
       <img className="pt-8 w-full" src="./gg.png" />
 
-      <div className="pt-8 flex flex-row items-center space-x-2  drop-shadow-glow">
+      <div className="pt-8 flex flex-row items-center space-x-2  ">
         <h1 className="text-lg font-semibold">
           The workshops
         </h1>
@@ -32,7 +32,7 @@ export default function Home() {
         <br />Check out our workshop pictures in the <Link className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="/gallery">gallery</Link> page!
       </p>
 
-      <div className="pt-8 flex flex-row items-center space-x-2 drop-shadow-glow">
+      <div className="pt-8 flex flex-row items-center space-x-2 ">
         <h1 className="text-lg font-semibold">
           The team
         </h1>

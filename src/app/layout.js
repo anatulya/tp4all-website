@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={firaCode.className}>
-        <div className="flex flex-col lg2:mx-60 xl:mx-72 shadow-lg shadow-black bg-neutral-800 border-2 border-t-0 border-b-0 border-stone-700 py-16 min-h-screen">
+        <div className="flex flex-col sm:mx-[0%] lg:mx-[10%] shadow-lg shadow-black bg-neutral-800  py-16 min-h-screen">
           <Nav />
           <div className=" pt-8 px-4 sm:px-16 " >
             {children}
