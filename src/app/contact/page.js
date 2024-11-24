@@ -1,7 +1,7 @@
 export default function ContactPage() {
     return (
         <div className="flex flex-col justify-center text-white fill-white sm:text-base text-sm">
-            <div className="flex flex-row w-full items-center space-x-2 drop-shadow-glow">
+            <div className="flex flex-row w-full items-center space-x-2 ">
                 <h1 className=" text-lg font-semibold ">
                     Organization
                 </h1>
@@ -17,7 +17,7 @@ export default function ContactPage() {
                 <svg className="w-3 h-3" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="InstagramIcon"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
                 <p className="">Instagram: <a className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="https://www.instagram.com/thinkpads4all">@thinkpads4all</a></p>
             </div>
-            <div className="pt-8 flex flex-row w-full items-center space-x-2 drop-shadow-glow">
+            <div className="pt-8 flex flex-row w-full items-center space-x-2 ">
                 <h1 className=" text-lg font-semibold ">
                     Team
                 </h1>
@@ -27,7 +27,7 @@ export default function ContactPage() {
             <p className="pt-2">Want to talk to us personally? Send us an email!</p>
             <div className="flex flex-col pt-8">
                 <div className=" flex flex-col text-center sm:flex-row sm:text-left items-center space-x-4">
-                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D5603AQGoS5m5ReTHYw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726352442404?e=1732147200&v=beta&t=wjNtlt78p1mJIl0TFadooG1CgCbcPf0atRCDoCrABP4" />
+                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D5603AQHrJ_zbr1mRCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730588228380?e=1738195200&v=beta&t=Y8l-zNHXErSIHApKMTsw0ysQnMq60KvRsEyrZ3IffBM" />
                     <div className="flex flex-col ">
                         <h1 className="pt-2 sm:pt-0 font-semibold">Kevin Xie</h1>
                         <h1 className="">Co-Founder</h1>
