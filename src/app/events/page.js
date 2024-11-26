@@ -13,11 +13,14 @@ export default function EventPage() {
             <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={""} city={"Burlingame, CA"} />
             <EventListing name={"Cupertino Library"} date={new Date(2025, 2, 22, 14)} link={""} city={"Cupertino, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 4, 25, 13, 30)} link={""} city={"Fremont, CA"} />
+            <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 5, 21, 14, 30)} link={""} city={"Oakland, CA"} />
             <EventListing name={"THP South Branch Library"} date={new Date(2025, 5, 28, 14, 30)} link={""} city={"Berkeley, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 6, 19, 10, 30)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 6, 20, 13, 30)} link={""} city={"Fremont, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 7, 9, 10, 30)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Dublin Library"} date={new Date(2025, 7, 16, 14, 30)} link={""} city={"Dublin, CA"} />
+            <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 7, 23, 14, 30)} link={""} city={"Oakland, CA"} />
+
             <EventListing name={"Union City Library"} date={null} link={""} city={"Union City, CA"} />
             <EventListing name={"Redwood City Library"} date={null} link={""} city={"Redwood City, CA"} />
             <EventListing name={"San Bruno Public Library"} date={null} link={""} city={"San Bruno, CA"} />
