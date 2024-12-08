@@ -10,7 +10,7 @@ export default function EventPage() {
             <h1 className="font-semibold">Upcoming Events</h1>
             <EventListing name={"Sunnyvale Library"} date={new Date(2024, 11, 15, 14)} link={"https://sunnyvale.libcal.com/event/12928876"} city={"Sunnyvale, CA"} />
             <EventListing name={"Scotts Valley Library"} date={new Date(2025, 0, 4, 13)} link={"https://santacruzpl.libcal.com/event/13532908"} city={"Santa Cruz, CA"} />
-            <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={""} city={"Burlingame, CA"} />
+            <EventListing name={"Burlingame Library"} date={new Date(2025, 0, 5, 13, 30)} link={"https://burlingame.libcal.com/event/13662880?hs=a"} city={"Burlingame, CA"} />
             <EventListing name={"Cupertino Library"} date={new Date(2025, 2, 22, 14)} link={""} city={"Cupertino, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 4, 25, 13, 30)} link={""} city={"Fremont, CA"} />
             <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 5, 21, 14, 30)} link={""} city={"Oakland, CA"} />
