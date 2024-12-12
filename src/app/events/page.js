@@ -15,6 +15,7 @@ export default function EventPage() {
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 4, 25, 13, 30)} link={""} city={"Fremont, CA"} />
             <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 5, 21, 14, 30)} link={""} city={"Oakland, CA"} />
             <EventListing name={"THP South Branch Library"} date={new Date(2025, 5, 28, 14, 30)} link={""} city={"Berkeley, CA"} />
+            <EventListing name={"Educational Park Branch Library"} date={new Date(2025, 6, 12, 13)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 6, 19, 10, 30)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 6, 20, 13, 30)} link={""} city={"Fremont, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 7, 9, 10, 30)} link={""} city={"San Jose, CA"} />
