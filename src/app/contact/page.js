@@ -1,3 +1,6 @@
+import Image from "next/image";
+import IMG_KXIE from "@/../public/profile/kxie.jpg"
+import IMG_ANAT from "@/../public/profile/anat.jpg"
 export default function ContactPage() {
     return (
         <div className="flex flex-col justify-center text-white fill-white sm:text-base text-sm">
@@ -25,9 +28,25 @@ export default function ContactPage() {
                 {/* <svg className="w-5 h-5" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BusinessIcon"><path d="M12 7V3H2v18h20V7zM6 19H4v-2h2zm0-4H4v-2h2zm0-4H4V9h2zm0-4H4V5h2zm4 12H8v-2h2zm0-4H8v-2h2zm0-4H8V9h2zm0-4H8V5h2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8zm-2-8h-2v2h2zm0 4h-2v2h2z"></path></svg> */}
             </div>
             <p className="pt-2">Want to talk to us personally? Send us an email!</p>
+            <div className="pt-8 flex flex-col text-center sm:flex-row sm:text-left items-center space-x-4">
+                    <Image src={IMG_ANAT} className="w-32 h-32 rounded" />
+                    <div className="flex flex-col ">
+                        <h1 className="pt-2 sm:pt-0 font-semibold">Anatulya Nandi</h1>
+                        <h1 className="">Co-Founder</h1>
+                        <div className="flex flex-row space-x-2  items-center justify-center sm:justify-normal">
+                            <svg className="w-4 h-4" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EmailIcon"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4-8 5-8-5V6l8 5 8-5z"></path></svg>
+                            <p className=""><a target="_blank" className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="mailto:anatulya.nandi@gmail.com">anatulya.nandi@gmail.com</a></p>
+
+                        </div>
+                        <div className="flex flex-row  space-x-2 items-center justify-center sm:justify-normal">
+                            <svg className="w-4 h-4" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LinkedInIcon"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+                            <p className=""><a target="_blank" className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="https://www.linkedin.com/in/anatulya-nandi-4520a6329/">LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
             <div className="flex flex-col pt-8">
                 <div className=" flex flex-col text-center sm:flex-row sm:text-left items-center space-x-4">
-                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D5603AQHrJ_zbr1mRCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730588228380?e=1738195200&v=beta&t=Y8l-zNHXErSIHApKMTsw0ysQnMq60KvRsEyrZ3IffBM" />
+                    <Image src={IMG_KXIE} className="w-32 h-32 rounded" />
                     <div className="flex flex-col ">
                         <h1 className="pt-2 sm:pt-0 font-semibold">Kevin Xie</h1>
                         <h1 className="">Co-Founder</h1>
@@ -44,24 +63,7 @@ export default function ContactPage() {
 
                     </div>
                 </div>
-                <div className="pt-8 flex flex-col text-center sm:flex-row sm:text-left items-center space-x-4">
-                    <img className="w-32 h-32 rounded-full" src="https://media.licdn.com/dms/image/v2/D4E03AQGwLnz_GrP6bg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728764887284?e=1733961600&v=beta&t=1Vh2Xc2koqlLbUiMjAxb0h8VDxDC7_2TM8U0AS7laSA" />
-                    <div className="flex flex-col ">
-                        <h1 className="pt-2 sm:pt-0 font-semibold">Anatulya Nandi</h1>
-                        <h1 className="">Co-Founder</h1>
-                        <div className="flex flex-row space-x-2  items-center justify-center sm:justify-normal">
-                            <svg className="w-4 h-4" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="EmailIcon"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4-8 5-8-5V6l8 5 8-5z"></path></svg>
-                            <p className=""><a target="_blank" className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="mailto:anatulya.nandi@gmail.com">anatulya.nandi@gmail.com</a></p>
-
-                        </div>
-                        <div className="flex flex-row  space-x-2 items-center justify-center sm:justify-normal">
-                            <svg className="w-4 h-4" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LinkedInIcon"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
-                            <p className=""><a target="_blank" className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="https://www.linkedin.com/in/anatulya-nandi-4520a6329/">LinkedIn</a></p>
-                        </div>
-                        {/* <p className=""><a className="underline underline-offset-4 hover:text-neutral-200 transition-opacity" href="https://www.linkedin.com/in/kevin-xie-267700231/">LinkedIn</a></p> */}
-
-                    </div>
-                </div>
+               
             </div>
 
 
