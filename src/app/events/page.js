@@ -9,13 +9,13 @@ export default function EventPage() {
         <div className="flex flex-col text-white">
             <h1 className="font-semibold">Upcoming Events</h1>
             <EventListing name={"Cupertino Library"} date={new Date(2025, 2, 22, 14)} link={"https://sccl.bibliocommons.com/events/67952e412a99913600cada63"} city={"Cupertino, CA"} />
-            <EventListing name={"Mountain View Library"} date={new Date(2025, 2, 28, 14)} link={"https://mountainview.libcal.com/event/13559713"} city={"Mountain View, CA"} />
+            <EventListing name={"Mountain View Library"} date={new Date(2025, 2, 28, 15, 30)} link={"https://mountainview.libcal.com/event/13559713"} city={"Mountain View, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 4, 25, 13, 30)} link={"https://aclibrary.bibliocommons.com/events/677ac911be9184c03ac425c1"} city={"Fremont, CA"} />
             <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 5, 21, 14, 30)} link={""} city={"Oakland, CA"} />
             <EventListing name={"THP South Branch Library"} date={new Date(2025, 5, 28, 14, 30)} link={""} city={"Berkeley, CA"} />
             <EventListing name={"Educational Park Branch Library"} date={new Date(2025, 6, 12, 13)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 6, 19, 10, 30)} link={""} city={"San Jose, CA"} />
-            <EventListing name={"Fremont Main Library"} date={new Date(2025, 6, 20, 13, 30)} link={""} city={"Fremont, CA"} />
+            <EventListing name={"Fremont Main Library"} date={new Date(2025, 6, 20, 13, 30)} link={"https://aclibrary.bibliocommons.com/events/677ac911be9184c03ac425c2"} city={"Fremont, CA"} />
             <EventListing name={"Berryessa Branch Library"} date={new Date(2025, 7, 9, 10, 30)} link={""} city={"San Jose, CA"} />
             <EventListing name={"Dublin Library"} date={new Date(2025, 7, 16, 14, 30)} link={""} city={"Dublin, CA"} />
             <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 7, 23, 14, 30)} link={""} city={"Oakland, CA"} />
