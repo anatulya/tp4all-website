@@ -34,7 +34,7 @@ export const Nav = () => {
                     <Link href="/home" className={`${pathName === "/home" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Home</Link>
                     <Link href="/events" className={`${pathName === "/events" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Events</Link>
                     <Link href="/gallery" className={`${pathName.startsWith("/gallery") && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Gallery</Link>
-                    <Link href="/blog" className={`${pathName === "/blog" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Blog</Link>
+                    <Link href="/workshop" className={`${pathName === "/workshop" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Workshop</Link>
                     <Link href="/contact" className={`${pathName === "/contact" && "underline"} hover:underline underline-offset-8 text-white font-medium`}>Contact</Link>
                 </div>
             </div>
