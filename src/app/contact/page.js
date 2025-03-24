@@ -12,7 +12,7 @@ export default function ContactPage() {
     ];
     
     return (
-        <div className="flex flex-col mt-8 space-y-4">
+        <div className="flex flex-col sm:mt-8 space-y-4">
             <div className={`flex flex-row items-center text-lg pb-2 ${inconsolata.className}`}>
                 <Link href="/home"><h1 className="hover:text-white">ThinkPads4All</h1></Link>
                 <svg className="w-4 h-4 fill-neutral-300" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
@@ -35,7 +35,7 @@ export default function ContactPage() {
                 <div className="flex flex-col space-y-4 mt-8">
                     <div className="flex flex-row items-center space-x-4">
                     <Image width={128} height={128} src={IMG_ANAT} alt="" />
-                    <div className={`${inconsolata.className} flex flex-col`}>
+                    <div className={`${inconsolata.className} flex flex-col items-start`}>
                         <h1 className="font-semibold">Anatulya Nandi</h1>
                         <h1 className="">Co-Founder</h1>
                         <div className="flex flex-row space-x-2  items-center justify-center sm:justify-normal">
@@ -52,7 +52,7 @@ export default function ContactPage() {
        
                     <div className="flex flex-row items-center space-x-4">
                     <Image width={128} height={128} src={IMG_KXIE} alt="" />
-                    <div className={`${inconsolata.className} flex flex-col`}>
+                    <div className={`${inconsolata.className} flex flex-col items-start`}>
                         <h1 className="font-semibold">Kevin Xie</h1>
                         <h1 className="">Co-Founder</h1>
                         <div className="flex flex-row space-x-2  items-center justify-center sm:justify-normal">
@@ -66,7 +66,6 @@ export default function ContactPage() {
                         </div>
                     </div>
                     </div>
-                 
                 </div>
             </div>
         </div>

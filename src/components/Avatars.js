@@ -10,7 +10,7 @@ const avatars = [
 
 export default function Avatars() {
   return (
-    <div className="flex flex-row justify-end -space-x-4 rtl:space-x-reverse">
+    <div className="flex flex-row sm:justify-end justify-center space-x-4 sm:-space-x-4 sm:rtl:space-x-reverse">
       {avatars.map((avatar, index) => (
         <div key={index} className="relative group">
           <Link target="_blank" href={avatar.url}>
@@ -23,7 +23,7 @@ export default function Avatars() {
             alt={avatar.name}
           />
           </Link>
-          <span className="absolute left-1/2 -translate-x-1/2 translate-y-1/2 transform bg-gray-800 text-white text-sm px-2 py-1 rounded-md opacity-0 group-hover:opacity-100 ">
+          <span className="absolute left-1/2 -translate-x-1/2 sm:translate-y-1/2 transform bg-gray-800 text-white text-sm px-2 py-1 rounded-md sm:opacity-0 group-hover:opacity-100 ">
             {avatar.name}
           </span>
         </div>
