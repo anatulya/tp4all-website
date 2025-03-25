@@ -1,4 +1,4 @@
-import { GalleryListing } from "@/app/components/GalleryListing";
+import { GalleryListing } from '@/components/GalleryListing'
 
 import IMG_1 from '../../../../public/los_altos/1.jpg'
 import IMG_2 from '../../../../public/los_altos/2.jpg'

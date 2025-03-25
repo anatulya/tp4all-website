@@ -24,7 +24,8 @@ import IMG_22 from '../../../../public/cupertino/22.jpg'
 import IMG_23 from '../../../../public/cupertino/23.jpg'
 import IMG_24 from '../../../../public/cupertino/24.jpg'
 import IMG_25 from '../../../../public/cupertino/25.jpg'
-import { GalleryListing } from '@/app/components/GalleryListing'
+import { GalleryListing } from '@/components/GalleryListing'
+
 
 export default function CupertinoGallery() {
     const images = [IMG_1, IMG_2, IMG_3, IMG_4, IMG_5, IMG_6, IMG_7, IMG_8, IMG_9, IMG_10, IMG_11, IMG_12, IMG_13, IMG_14, IMG_15, IMG_16, IMG_17, IMG_18, IMG_19, IMG_20, IMG_21, IMG_22, IMG_23, IMG_24, IMG_25]

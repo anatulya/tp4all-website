@@ -25,7 +25,7 @@ import IMG_24 from '../../../../public/milpitas/24.jpg'
 import IMG_25 from '../../../../public/milpitas/25.jpg'
 import IMG_26 from '../../../../public/milpitas/26.jpg'
 import IMG_27 from '../../../../public/milpitas/27.jpg'
-import { GalleryListing } from '@/app/components/GalleryListing'
+import { GalleryListing } from '@/components/GalleryListing'
 
 export default function MilpitasGallery() {
     const images = [IMG_1, IMG_2, IMG_3, IMG_4, IMG_5, IMG_6, IMG_7, IMG_8, IMG_9, IMG_10, IMG_11, IMG_12, IMG_13, IMG_14, IMG_15, IMG_16, IMG_17, IMG_18, IMG_19, IMG_20, IMG_21, IMG_22, IMG_23, IMG_24, IMG_25, IMG_26, IMG_27]

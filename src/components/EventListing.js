@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export const EventListing = ({ name, date, link, city, fixit }) => {
     const getFormattedDate = () => {
         return date.toLocaleString('default', { dateStyle: "short", timeStyle: "short" });
@@ -11,7 +10,7 @@ export const EventListing = ({ name, date, link, city, fixit }) => {
 
     return (
         <div className="flex flex-col sm:px-1 py-2.5 ">
-            <div className="flex flex-row  sm:px-4 justify-between items-center sm:items-start text-base">
+            <div className="flex flex-row  sm:px-4 justify-between items-center sm:items-start text-lg">
                 <div className="flex flex-col ">
                     <h1 className=" text-white">{name}</h1>
                     <div className="flex flex-row items-center ">
