@@ -7,7 +7,9 @@ export const EventPageClient = ({ inconsolata, inter }) => {
         <div className={`flex flex-col text-white ${inconsolata}`}>
             <h1 className={`font-semibold text-2xl ${inter}`}>Upcoming Events</h1>
             <EventListing name={"Mountain View Library"} date={new Date(2025, 2, 28, 15, 30)} link={"https://mountainview.libcal.com/event/13559713"} city={"Mountain View, CA"} />
+            <EventListing name={"San Bruno Public Library"} date={new Date(2025, 2, 29, 13)} link={"https://www.sanbruno.ca.gov/Calendar.aspx?EID=4256&month=3&year=2025&day=24&calType=0"} city={"San Bruno, CA"} />
             <EventListing name={"Fremont Main Library"} date={new Date(2025, 4, 25, 13, 30)} link={"https://aclibrary.bibliocommons.com/events/677ac911be9184c03ac425c1"} city={"Fremont, CA"} />
+            {/* <EventListing name={"San Bruno Public Library"} date={new Date(2025, 5, 14, 13)} link={""} city={"San Bruno, CA"} /> */}
             <EventListing name={"81st Avenue Branch Library"} date={new Date(2025, 5, 21, 14, 30)} link={""} city={"Oakland, CA"} />
             <EventListing name={"THP South Branch Library"} date={new Date(2025, 5, 28, 14, 30)} link={""} city={"Berkeley, CA"} />
             <EventListing name={"Educational Park Branch Library"} date={new Date(2025, 6, 12, 13)} link={""} city={"San Jose, CA"} />
@@ -19,7 +21,6 @@ export const EventPageClient = ({ inconsolata, inter }) => {
 
             <EventListing name={"Union City Library"} date={null} link={""} city={"Union City, CA"} />
             <EventListing name={"Redwood City Library"} date={null} link={""} city={"Redwood City, CA"} />
-            <EventListing name={"San Bruno Public Library"} date={null} link={""} city={"San Bruno, CA"} />
             <EventListing name={"Hayward Public Library"} date={null} link={""} city={"Hayward, CA"} />
             {/* <EventListing name={"Mountain View Public Library"} date={null} link={""} city={"Mountain View, CA"} />
             <EventListing name={"81st Avenue Branch Library"} date={null} link={""} city={"Oakland, CA"} /> */}
