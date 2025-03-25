@@ -168,7 +168,7 @@ export default function HomePage() {
                     <div className="grid grid-cols-3 mt-8">
                         <div className="flex flex-col">
                             <h1 className="font-semibold text-neutral-100 text-lg">180 Degree Screen Swivel</h1>
-                            <h1 className="text-neutral-200 text-md">Taking inspiration from the Yoga and Twist series, we are implementing a twistable screen on the ThinkPad T480, with an extendable stem.</h1>
+                            <h1 className="text-neutral-200 text-md">Taking inspiration from the x220, we are removing the hinges and implementing a twistable screen on the ThinkPad T480.</h1>
                         </div>
                         <div className="flex flex-row justify-end">
                          <Image className="w-80" src={SWIVEL} alt={""}></Image>
