@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${inter.variable} antialiased bg-stone-900 py-8 max-w-screen-xl mx-auto px-2 sm:px-0`}
+        className={`${inter.variable} ${inter.variable} antialiased text-white bg-stone-900 py-8 max-w-screen-xl mx-auto px-2 sm:px-0`}
       > 
         <Nav font={inconsolata.className} />
         {children}
